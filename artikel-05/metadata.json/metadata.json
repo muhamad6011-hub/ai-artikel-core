@@ -1,0 +1,9 @@
+@"
+{
+  "judul": "Tentang Pemahaman Kekuatan Saat Ini: Menggali Makna Mendalam dari "The Power of Now" oleh Eckhart Tolle",
+  "kategori": "psikologi",
+  "sumber": "blogspot",
+  "bahasa": "id",
+  "format": "artikel"
+}
+"@ | Out-File metadata.json -Encoding utf8

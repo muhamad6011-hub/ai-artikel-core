@@ -1,0 +1,9 @@
+@"
+{
+  "judul": "Berhenti Diremehkan: Bangun Mental Kuat Ala Stoikisme agar Hidupmu Naik Level",
+  "kategori": "psikologi",
+  "sumber": "blogspot",
+  "bahasa": "id",
+  "format": "artikel"
+}
+"@ | Out-File metadata.json -Encoding utf8

@@ -1,0 +1,9 @@
+@"
+{
+  "judul": "Psikologi Uang: Pelajaran Hidup dan Finansial dari The Psychology of Money",
+  "kategori": "Psikologi",
+  "sumber": "blogspot",
+  "bahasa": "id",
+  "format": "artikel"
+}
+"@ | Out-File metadata.json -Encoding utf8
