@@ -1,22 +1,7 @@
-# AUTO PUSH AI ARTIKEL KE GITHUB
+Write-Host "🚀 Auto push ke GitHub..."
 
-$projectPath = "C:\AI-ARTIKEL"
-
-Set-Location $projectPath
-
-Write-Host "Build dataset AI..."
-.\auto-build-dataset.ps1
-
-Write-Host "Git add..."
 git add .
-
-$time = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-$commitMsg = "update dataset ai - $time"
-
-Write-Host "Git commit..."
-git commit -m "$commitMsg"
-
-Write-Host "Git push ke GitHub..."
+git commit -m "auto update dataset" -ErrorAction SilentlyContinue
 git push origin main
 
-Write-Host "Selesai. Semua sudah terupdate."
+Write-Host "✅ Push selesai"
